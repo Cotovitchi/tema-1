@@ -1,0 +1,9 @@
+public class Main {
+
+    public static void main(String[] args) {
+        // creem un loop de tip for
+
+        for (var i = 1; i <= 100; i++);
+
+
+        }
