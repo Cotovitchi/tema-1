@@ -1,9 +1,26 @@
+package com.company;
+
 public class Main {
 
     public static void main(String[] args) {
-        // creem un loop de tip for
 
-        for (var i = 1; i <= 100; i++);
+        for (int i = 1; i <= 66; i++)
+        {
 
-
+// este un multiplu de 5 si 7?
+            if (((i % 5) == 0) && ((i % 7) == 0))
+                System.out.println("fizzbuzz");
+// este un multiplu de 5?
+            else if ((i % 5) == 0) //
+                System.out.println("fizz");
+// este un multiplu de 5?
+            else if ((i % 7) == 0)
+                System.out.println("buzz");
+            else
+// nu este un multiplu de 5 sau 7
+                System.out.println(i);
         }
+
+    }
+
+}
